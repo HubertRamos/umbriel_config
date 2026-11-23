@@ -1,0 +1,17 @@
+# ==============================================================================
+# Configuração Modular do Umbriel
+# ==============================================================================
+
+[include]
+files = [
+  "conf.d/general.toml",
+  "conf.d/layout.toml",
+  "conf.d/rules.toml",
+  "conf.d/keybinds.toml"
+]
+
+[include.optional]
+files = [
+    # Carrega suas definições de cores e overrides,
+  "noctalia.toml",
+]

@@ -1,0 +1,24 @@
+[general]
+autostart = ["noctalia", "kitty"]
+mod_key = "Super"
+xwayland = true
+xwayland_native_resolution = true
+xwayland_xsettings = false
+xwayland_primary_output = "DP-1"
+nvidia_sync_workaround = false
+attach_modal_dialogs = false
+
+[input.keyboard]
+numlock_toggle = true
+
+[hot_corners.top_left]
+enabled = true
+delay_ms = 500
+action = "overview-open"
+
+[input.touchpad]
+natural_scroll = true
+
+[input.focus]
+follows_mouse = true
+hover_raises = false # Define se o foco ao passar o mouse também traz a janela para frente (false apenas foca, sem sobrepor)
