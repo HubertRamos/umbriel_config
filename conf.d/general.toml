@@ -20,5 +20,5 @@ action = "overview-open"
 natural_scroll = true
 
 [input.focus]
-follows_mouse = true
+follows_mouse = "sloppy"
 hover_raises = false # Define se o foco ao passar o mouse também traz a janela para frente (false apenas foca, sem sobrepor)
